@@ -71,7 +71,7 @@ aspect_ratio:
 song_meta:
   title: 歌名
   artist: 原著作家
-  transcript: Arranger, 编册作家
+  transcript: 编册作家
   musical_key: 曲调
   untitled: Untitled
 open_file: |
@@ -303,12 +303,12 @@ stock_queries:
     help_text:
   empty_song:
     foreword:
-    question: '*WARNING*: Your song is empty'
+    question: '*警告*: 您输入了空白乐谱'
     afterword: |
-      Please check the following:
+      请确认一下几点：
       
-      - You have entered at least one valid note
-      - If you entered an HTML visual sheet file, make sure it has been generated after the 1st July 2020 and contains the tag <div id='ascii' hidden>
+      - 您已输入至少一个可通的音符。
+      - 如果您输入了HTML乐谱文件，请确认此文件是在2020年7月1日后生成以及包括此代码：<div id='ascii' hidden>
       
-    input_tip: click OK to acknowledge
+    input_tip: 按 OK 确认
     help_text:
